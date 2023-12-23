@@ -21,4 +21,11 @@ export const OPTIONS_API = {
     {identifier:"eg",name:"English"},
     {identifier:"hindi",name:"Hindi"},
     {identifier:"spanish",name:"Spanish"},
-  ]
+  ];
+
+
+  export const OPENAI_KEY = "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"
+
+
+
+

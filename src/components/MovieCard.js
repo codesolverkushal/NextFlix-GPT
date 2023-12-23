@@ -1,6 +1,9 @@
 import { IMG_CDN } from "../utils/constants"
 
 const MovieCard = ({posterPath}) => {
+  if(!posterPath){
+    return;
+  }
   return (
     <div className="relative">
      <img
